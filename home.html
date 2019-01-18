@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Techonlogy</title>
+<style type="text/css">
+	
+	.topbar{
+		width:1000px;
+		margin:0 auto;
+		height: 40px;
+
+	}
+
+	body{
+		margin:0;
+		padding:0;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	#logo{
+		width:100px;
+		margin-top:10px;
+		float: left;
+		margin-left:-170px;
+	}
+	.topbar-section{
+		float:left;
+		border-left: 2px #cccccc solid;
+		height:40px;
+		margin-left:-65px;
+	}
+	#login-img{
+		/*height:30px;*/
+		width:20px;
+		margin:15px 10px;
+		float;left;
+	}
+	#signin-text{
+		font-weight: bold;
+		font-size: 90%;
+		position:relative;
+		top:-19px;
+
+	}
+	#bell-div{
+		float:left;
+		border-left: 2px #cccccc solid;
+		height:40px;
+		margin-left:30px;
+
+	}
+	#bell-img{
+		width: 24px;
+		margin:8px 10px 0 10px;
+
+	}
+	.topbar-menu{
+		float:left;
+		margin:0px 3px;
+		padding:14px 15px 0 15px;
+		height:25px;
+		font-weight: bold;
+		font-size: 90%;
+	}
+	#search-bar{
+		margin:0px;
+		height:37px;
+	}
+	#search-box{
+		background-color: #A9A9A9;
+		border:none;
+		font-weight: bold;
+		font-size: 14px;
+		margin:5px;
+		padding:5px;
+		
+	}
+	.clear{
+		clear:both;
+	}
+	#menu-bar-container{
+		background-color: #BB1919;
+		width:1500px;
+		height:70px;
+	}
+	#menu-bar{
+		width:1000px;
+		margin:0 auto;
+	}
+	h1{
+		padding: 0;
+		margin:0;
+		color:white;
+		font-size:40px ;
+		font-weight: normal;
+		padding-top: 10px;
+		margin-left: -240px;
+	}
+	#menu-bar2-container{
+		background-color:#A91717;
+		width:2000px;
+		height:30px;
+	}
+
+	#menu-bar2{
+		width: 2000px;
+		margin:0 auto;
+		height:30px;
+	}
+
+	#menu-bar2 a{
+		border-right:1px solid #BB4545;
+		text-decoration:none;
+		padding:0px 15px;
+		color:white;
+		font-size:14px;
+		position:relative;
+		top:6px;
+	}
+
+	#menu-bar2 a:hover{
+		text-decoration: underline;
+	}
+
+	.no-border{
+		border:none !important;
+	}
+
+	#page-container{
+		width:1500px;
+		margin:0 auto;
+	}
+
+	h2{
+		font-weight:normal;
+		font-size:20px;
+		margin:10px 0 0 20px;
+		border-bottom:3px solid #A91717;
+		width:100px
+	}
+	h3 a{
+		color:black;
+		font-size:30px;
+		text-decoration: none;
+		margin:10px 0 0 20px;
+
+	}
+	h3 a:hover{
+		color:#1165a8;
+	}
+	#article-summary{
+		color:#5a5a5a;
+		width:260px;
+		margin:10px 0 0 20px;
+		float:left;
+	}
+	#topic-link{
+		text-decoration: none;
+		color:#a91717;
+		border-left:1px solid #CCCCCC;
+		padding-left: 10px
+		width:20px;
+
+	}
+	#article-summary a:hover{
+		color:#1165a8;
+	}
+	.date{
+		padding-right: 10px
+	}
+	#article-container{
+		float:left;
+		width:700px;
+		border-right:1px solid #CCCCCC;
+		padding-right:0px;
+	}
+	#main-article-image{
+		width: 700px
+		margin-left:-2px;
+
+	}
+	#article-hr{
+		border-top:1px solid #A91717;
+		width:50px;
+	}
+	.article-link{
+		color:black;
+		text-decoration:none;
+	}
+	#watch-listen{
+		margin-left:20px;
+		width:770px;
+		float:right;
+		margin-top:-350px;
+	}
+	h4{
+		font-size:20px;
+		font-weight: normal;
+	}
+	.a-side-image{
+		float:left;
+		margin-right:10px;
+
+	}
+	.watch-listen-link{
+		font-weight:bold;
+		color:black;
+		font-size:18px;
+		text-decoration:none;
+		width:50px;
+	}
+	.watch-listen-link:hover{
+		color:#1165a8;
+	}
+	.side-article{
+		float:right;
+		width:650px;
+		position:relative;
+		top:-15px;
+
+	}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+<div class="topbar">
+
+	<img id="logo" src="img/bbc1.png">
+
+	<div id="signin-div" class="topbar-section">
+		<img id="login-img" src="img/sig.png">
+
+		<span id="signin-text">Sign in</span>
+
+	</div>
+
+		<div id="bell-div">
+			<img id="bell-img" src="img/bell.jpg">
+		
+		</div>
+
+			<div class="topbar-section topbar-menu">News</div>
+			<div class="topbar-section topbar-menu">Sports</div>
+			<div class="topbar-section topbar-menu">Weather</div>
+			<div class="topbar-section topbar-menu">iPlayer</div>
+			<div class="topbar-section topbar-menu">Tv</div>
+			<div class="topbar-section topbar-menu">More</div>
+			<div class="topbar-section"  id="search-bar" >
+				<input id="search-box" type="text" name="search" value="Search">
+			</div>
+</div>
+	<div class="clear"></div>
+
+	<div id="menu-bar-container">
+		<div id="menu-bar">
+		<h1>NEWS</h1>
+		</div>
+
+		
+	</div>
+		<div id="menu-bar2-container">
+			<div id="menu-bar2">
+				<a href="#">Home</a>
+				<a href="#">Uk</a> 
+				<a href="#">World</a> 
+				<a href="#">Business</a>
+				<a href="#">Politics</a>
+				<a href="#">Tech</a>
+				<a href="#">Science</a>
+				<a href="#">Health</a>
+				<a href="#">Education</a>
+				<a href="#">Entertainment & Arts</a>
+				<a href="#">Video & Audio</a>
+				<a href="#" class="no-border">More</a>
+			</div>
+			
+		</div>
+	<div class="clear"></div>
+		<div id="page-container">
+	
+			<div id="main-article">
+				<h2>Technology</h2>
+				<div id="article-container">
+					<h3><a href="#">Apple bug exposed payment details</a></h3>
+					<div id="article-summary"><p>Security vulnerabilit that put customers at risk have affected apple's website for a couple of years, a security expert has revealed.</p>
+					<p><span id="date">19 January 2018</span><a href="#" id="topic-link">Technology</a> </p>
+					<hr id="article-hr" align="left">
+					<p><a href="#" class="article-link">Surveillance firm hit in back attack</a></p>
+					<p><a href="#" class="article-link">eBay flaw has existed for months</a></p>
+
+					</div>
+					<img id="main-article-image" src="img/article-image.png">
+				</div>	
+			</div>
+			<div class="clear"></div>
+				<div id="watch-listen">
+					
+					<h4>Watch/Listen</h4>
+
+					<img class="a-side-image" src="img/side1.png">
+
+					<div class="side-article">
+						<p><a href="#" class="watch-listen-link">Uk science chief backs blockchains</a></p>
+						<p><span class="date">19 January 2018</span><a href="#" id="topic-link">Technology</a> </p>
+
+					</div>
+
+				</div>
+		</div>
+
+
+
+		
+
+</body>
+</html>
